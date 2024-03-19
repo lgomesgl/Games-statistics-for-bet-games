@@ -1,0 +1,459 @@
+{
+  "leagues": [
+    {
+      "name": "Premier League",
+      "country": "England",
+      "datasets": ["D:\\LUCAS\\Football_2.0\\Database\\Premier_league_22_23.csv", "D:\\LUCAS\\Football_2.0\\Database\\Premier_league_23_24.csv"],
+      "teams": [
+        {
+          "name": "Manchester City",
+          "city": "Manchester",
+          "stadium": "Etihad Stadium",
+          "players": [
+            {"name": "Ederson", "position": "Goalkeeper"},
+            {"name": "Ruben Dias", "position": "Defender"},
+            {"name": "Kevin De Bruyne", "position": "Midfielder"},
+            {"name": "Gabriel Jesus", "position": "Forward"}
+          ]
+        },
+        {
+          "name": "Manchester United",
+          "city": "Manchester",
+          "stadium": "Old Trafford",
+          "players": [
+            {"name": "David de Gea", "position": "Goalkeeper"},
+            {"name": "Harry Maguire", "position": "Defender"},
+            {"name": "Bruno Fernandes", "position": "Midfielder"},
+            {"name": "Marcus Rashford", "position": "Forward"}
+          ]
+        },
+        {
+          "name": "Liverpool",
+          "city": "Liverpool",
+          "stadium": "Anfield",
+          "players": [
+            {"name": "Alisson Becker", "position": "Goalkeeper"},
+            {"name": "Virgil van Dijk", "position": "Defender"},
+            {"name": "Mohamed Salah", "position": "Forward"},
+            {"name": "Sadio Mané", "position": "Forward"}
+          ]
+        },
+        {
+          "name": "Chelsea",
+          "city": "London",
+          "stadium": "Stamford Bridge",
+          "players": [
+            {"name": "Édouard Mendy", "position": "Goalkeeper"},
+            {"name": "Thiago Silva", "position": "Defender"},
+            {"name": "N'Golo Kanté", "position": "Midfielder"},
+            {"name": "Kai Havertz", "position": "Forward"}
+          ]
+        },
+        {
+          "name": "Arsenal",
+          "city": "London",
+          "stadium": "Emirates Stadium",
+          "players": [
+            {"name": "Bernd Leno", "position": "Goalkeeper"},
+            {"name": "Gabriel Magalhães", "position": "Defender"},
+            {"name": "Thomas Partey", "position": "Midfielder"},
+            {"name": "Pierre-Emerick Aubameyang", "position": "Forward"}
+          ]
+        },
+        {
+          "name": "Tottenham Hotspur",
+          "city": "London",
+          "stadium": "Tottenham Hotspur Stadium",
+          "players": [
+            {"name": "Hugo Lloris", "position": "Goalkeeper"},
+            {"name": "Harry Kane", "position": "Forward"},
+            {"name": "Heung-Min Son", "position": "Forward"},
+            {"name": "Tanguy Ndombele", "position": "Midfielder"}
+          ]
+        },
+        {
+          "name": "Newcastle",
+          "city": "Newcastle",
+          "stadium": "St. James' Park",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "West Ham",
+          "city": "London",
+          "stadium": "London Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Aston Villa",
+          "city": "Birmingham",
+          "stadium": "Villa Park",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Burnley",
+          "city": "Burnley",
+          "stadium": "Turf Moor",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Bournemouth",
+          "city": "Bournemouth",
+          "stadium": "Vitality Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Brighton",
+          "city": "Brighton",
+          "stadium": "Falmer Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Everton",
+          "city": "Liverpool",
+          "stadium": "Goodison Park",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Sheffield United",
+          "city": "Sheffield",
+          "stadium": "Bramall Lane",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Brentford",
+          "city": "Brentford",
+          "stadium": "Brentford Community Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Nott'm Forest",
+          "city": "Nottingham",
+          "stadium": "The City Ground",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Fulham",
+          "city": "London",
+          "stadium": "Craven Cottage",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Wolves",
+          "city": "Wolverhampton",
+          "stadium": "Molineux Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Crystal Palace",
+          "city": "London",
+          "stadium": "Selhurst Park",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Luton",
+          "city": "Luton",
+          "stadium": "Kenilworth Road",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        }
+        
+      ]
+    },
+    {
+      "name": "La Liga",
+      "country": "Spain",
+      "datasets": ["D:\\LUCAS\\Football_2.0\\Database\\La_liga_22_23.csv","D:\\LUCAS\\Football_2.0\\Database\\La_liga_23_24.csv"],
+      "teams": [
+        {
+          "name": "Almeria",
+          "city": "Almeria",
+          "stadium": "Estadio de los Juegos Mediterráneos",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Sevilla",
+          "city": "Seville",
+          "stadium": "Ramón Sánchez Pizjuán Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Real Sociedad",
+          "city": "San Sebastián",
+          "stadium": "Anoeta Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Las Palmas",
+          "city": "Las Palmas",
+          "stadium": "Gran Canaria Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Athletic Bilbao",
+          "city": "Bilbao",
+          "stadium": "San Mamés Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Celta Vigo",
+          "city": "Vigo",
+          "stadium": "Abanca-Balaídos",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Villarreal",
+          "city": "Villarreal",
+          "stadium": "Estadio de la Cerámica",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Getafe",
+          "city": "Getafe",
+          "stadium": "Coliseum Alfonso Pérez",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Cadiz",
+          "city": "Cadiz",
+          "stadium": "Estadio Ramón de Carranza",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Atletico Madrid",
+          "city": "Madrid",
+          "stadium": "Wanda Metropolitano",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Mallorca",
+          "city": "Palma",
+          "stadium": "Estadio de Son Moix",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Valencia",
+          "city": "Valencia",
+          "stadium": "Mestalla Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Osasuna",
+          "city": "Pamplona",
+          "stadium": "El Sadar Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Girona",
+          "city": "Girona",
+          "stadium": "Estadi Montilivi",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Barcelona",
+          "city": "Barcelona",
+          "stadium": "Camp Nou",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Real Betis",
+          "city": "Seville",
+          "stadium": "Benito Villamarín Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Alaves",
+          "city": "Vitoria-Gasteiz",
+          "stadium": "Estadio Mendizorrotza",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Granada",
+          "city": "Granada",
+          "stadium": "Nuevo Los Cármenes",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Rayo Vallecano",
+          "city": "Madrid",
+          "stadium": "Estadio de Vallecas",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Real Madrid",
+          "city": "Madrid",
+          "stadium": "Santiago Bernabéu Stadium",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        }
+      ]
+    }
+  ]
+}

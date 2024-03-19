@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from split_data import SplitTheData
 
 class PreProcMatchData(SplitTheData):
@@ -9,11 +10,11 @@ class PreProcMatchData(SplitTheData):
         self.pre_proc()
         
     def pre_proc(self):
-        df = self.df
-        df['Total_gols'] = df['FTHG'] + df['FTAG']
-        df['Total_gols_half'] = df['HTHG'] + df['HTAG']
-        df['Result'] = df['FTR']
-        self.df_pre_proc = df
+        df_c = self.df.copy()
+        df_c['Total_gols'] = df_c['FTHG'] + df_c['FTAG']
+        df_c['Total_gols_half'] = df_c['HTHG'] + df_c['HTAG']
+        df_c['Result'] = df_c['FTR']
+        self.df_pre_proc = df_c
     
 class PreProcStatisticData(SplitTheData):
     def __init__(self, data):
@@ -29,8 +30,13 @@ class PrecProcOddsData(SplitTheData):
         
     
 
-def concatenate_datas():
-    data = pd.read_csv('D:\LUCAS\Football_2.0\Database\La_liga_23_24.csv', delimiter=',')
+def concatenate_datas(paths):
+    data = pd.DataFrame({})
+    for path in paths:
+        df = pd.read_csv(path, delimiter=',')
+        data = pd.concat([df, data], axis=0)
+    data = data.reset_index(drop=True)
+    
     ppmd = PreProcMatchData(data)
     ppsd = PreProcStatisticData(data)
     ppod = PrecProcOddsData(data)
