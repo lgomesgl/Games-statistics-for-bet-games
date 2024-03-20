@@ -94,30 +94,41 @@ class TeamStatistic:
         
         self.mean_team_yellow_cards = round(self.data_filter[f'{ self.modeLett }Y'].mean(), 2)
         self.mean_team_against_yellow_cards = round(self.data_filter[f'{ self.modeLettA }Y'].mean(), 2)
+        
+        self.diff_gols_win = round(self.win_data['Diff_gols'].mean(), 2)
     
     def description(self):
-        print(f'-----------------------DESCRIPTION-----------------------')
-        print(f'{ self.team } at { self.specific } games')
-        print(f'Mean odds: Win-> { self.mean_odd_to_win }, Draw-> { self.mean_odd_to_draw }, Lose-> { self.mean_odd_to_lose }')
-        print(f'Mean odds: { self.odd_total_gols_less_2_5 } < 2.5 total gols > { self.odd_total_gols_more_2_5 }')
-        print(f'Mean shots by { self.team }: {self.mean_team_shoots }, by away team: {self.mean_team_against_shoot }')
-        print(f'Mean target shots by { self.team }: {self.mean_team_shoots_target }, by away team: {self.mean_team_against_shoots_target }')
-        print(f'Mean corners by { self.team }: {self.mean_team_corners }, by away team: {self.mean_team_against_corners }')
-        print(f'Mean fouls commited by { self.team }: {self.mean_team_fouls }, by away team: {self.mean_team_against_fouls }')
-        print(f'Mean yellow cards by { self.team }: {self.mean_team_yellow_cards }, by away team: {self.mean_team_against_yellow_cards }')
+        print(f'-----------------------DESCRIPTION-----------------------\n'
+            f'{self.team} at {self.specific} games\n'
+            f'Mean odds: Win-> {self.mean_odd_to_win}, Draw-> {self.mean_odd_to_draw}, Lose-> {self.mean_odd_to_lose}\n'
+            f'Mean odds: {self.odd_total_gols_less_2_5} < 2.5 total gols > {self.odd_total_gols_more_2_5}\n'
+            f'Mean shots by {self.team}: {self.mean_team_shoots}, by away team: {self.mean_team_against_shoot}\n'
+            f'Mean target shots by {self.team}: {self.mean_team_shoots_target}, by away team: {self.mean_team_against_shoots_target}\n'
+            f'Mean corners by {self.team}: {self.mean_team_corners}, by away team: {self.mean_team_against_corners}\n'
+            f'Mean fouls committed by {self.team}: {self.mean_team_fouls}, by away team: {self.mean_team_against_fouls}\n'
+            f'Mean yellow cards by {self.team}: {self.mean_team_yellow_cards}, by away team: {self.mean_team_against_yellow_cards}\n'
+            f'Mean of diff gols(home gols - away gols) by { self.team }: { self.diff_gols_win } if its a win game')
+
                  
         self.change_mode()
         self.__init__(self.team, self.specific)
         
+        if __name__ == "__main__":
+            self.description_against()
+    
+    def description_against(self):
         print('\n')
-        print(f'{ self.team } at { self.specific } games')
-        print(f'Mean odds: Win-> { self.mean_odd_to_win }, Draw-> { self.mean_odd_to_draw }, Lose-> { self.mean_odd_to_lose }')
-        print(f'Mean odds: { self.odd_total_gols_less_2_5 } < 2.5 total gols > { self.odd_total_gols_more_2_5 }')
-        print(f'Mean shots by { self.team }: {self.mean_team_shoots }, by home team: {self.mean_team_against_shoot }')
-        print(f'Mean target shots by { self.team }: {self.mean_team_shoots_target }, by home team: {self.mean_team_against_shoots_target }')
-        print(f'Mean corners by { self.team }: {self.mean_team_corners }, by home team: {self.mean_team_against_corners }')
-        print(f'Mean fouls commited by { self.team }: {self.mean_team_fouls }, by home team: {self.mean_team_against_fouls }')
-        print(f'Mean yellow cards by { self.team }: {self.mean_team_yellow_cards }, by home team: {self.mean_team_against_yellow_cards }')
+        print(
+            f'{self.team} at {self.specific} games\n'
+            f'Mean odds: Win-> {self.mean_odd_to_win}, Draw-> {self.mean_odd_to_draw}, Lose-> {self.mean_odd_to_lose}\n'
+            f'Mean odds: {self.odd_total_gols_less_2_5} < 2.5 total gols > {self.odd_total_gols_more_2_5}\n'
+            f'Mean shots by {self.team}: {self.mean_team_shoots}, by home team: {self.mean_team_against_shoot}\n'
+            f'Mean target shots by {self.team}: {self.mean_team_shoots_target}, by home team: {self.mean_team_against_shoots_target}\n'
+            f'Mean corners by {self.team}: {self.mean_team_corners}, by home team: {self.mean_team_against_corners}\n'
+            f'Mean fouls committed by {self.team}: {self.mean_team_fouls}, by home team: {self.mean_team_against_fouls}\n'
+            f'Mean yellow cards by {self.team}: {self.mean_team_yellow_cards}, by home team: {self.mean_team_against_yellow_cards}\n'
+            f'Mean of diff gols(home gols - away gols) by { self.team }: { self.diff_gols_win } if its a win game')
         
-ts = TeamStatistic('Sevilla', year='all')
-ts.description()
+if __name__ == "__main__":   
+    ts = TeamStatistic('Getafe', year='last')
+    ts.description()

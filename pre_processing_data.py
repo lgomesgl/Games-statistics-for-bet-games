@@ -13,6 +13,7 @@ class PreProcMatchData(SplitTheData):
         df_c = self.df.copy()
         df_c['Total_gols'] = df_c['FTHG'] + df_c['FTAG']
         df_c['Total_gols_half'] = df_c['HTHG'] + df_c['HTAG']
+        df_c['Diff_gols'] = df_c['FTHG'] - df_c['FTAG']
         df_c['Result'] = df_c['FTR']
         self.df_pre_proc = df_c
     
@@ -28,8 +29,6 @@ class PrecProcOddsData(SplitTheData):
         self.odds_data()
         self.df = self.odds
         
-    
-
 def concatenate_datas(paths):
     data = pd.DataFrame({})
     for path in paths:

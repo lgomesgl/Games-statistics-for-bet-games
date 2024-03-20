@@ -454,6 +454,211 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Bundesliga",
+      "country": "Germany",
+      "datasets": ["D:\\LUCAS\\Football_2.0\\Database\\Bundesliga_22_23.csv","D:\\LUCAS\\Football_2.0\\Database\\Bundesliga_23_24.csv"],
+      "teams": [
+        {
+          "name": "Dortmund",
+          "city": "Almeria",
+          "stadium": "Estadio de los Juegos Mediterráneos",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Werder Bremen",
+          "city": "Bremen",
+          "stadium": "Weser-Stadion",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Augsburg",
+          "city": "Augsburg",
+          "stadium": "WWK Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Hoffenheim",
+          "city": "Sinsheim",
+          "stadium": "PreZero Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Leverkusen",
+          "city": "Leverkusen",
+          "stadium": "BayArena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Stuttgart",
+          "city": "Stuttgart",
+          "stadium": "Mercedes-Benz Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Wolfsburg",
+          "city": "Wolfsburg",
+          "stadium": "Volkswagen Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Union Berlin",
+          "city": "Berlin",
+          "stadium": "Stadion An der Alten Försterei",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Ein Frankfurt",
+          "city": "Frankfurt",
+          "stadium": "Deutsche Bank Park",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "RB Leipzig",
+          "city": "Leipzig",
+          "stadium": "Red Bull Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Bochum",
+          "city": "Bochum",
+          "stadium": "Vonovia Ruhrstadion",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Darmstadt",
+          "city": "Darmstadt",
+          "stadium": "Merck-Stadion am Böllenfalltor",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "FC Koln",
+          "city": "Cologne",
+          "stadium": "RheinEnergieStadion",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Freiburg",
+          "city": "Freiburg",
+          "stadium": "Schwarzwald-Stadion",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Heidenheim",
+          "city": "Heidenheim",
+          "stadium": "Voith-Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "M'gladbach",
+          "city": "Mönchengladbach",
+          "stadium": "Borussia-Park",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Mainz",
+          "city": "Mainz",
+          "stadium": "Opel Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        },
+        {
+          "name": "Bayern Munich",
+          "city": "Munich",
+          "stadium": "Allianz Arena",
+          "players": [
+            {"name": "Player 1", "position": "Position 1"},
+            {"name": "Player 2", "position": "Position 2"},
+            {"name": "Player 3", "position": "Position 3"},
+            {"name": "Player 4", "position": "Position 4"}
+          ]
+        }
+      ]        
     }
   ]
 }
