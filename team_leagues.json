@@ -6,7 +6,7 @@
       "datasets": ["D:\\LUCAS\\Football_2.0\\Database\\Premier_league_22_23.csv", "D:\\LUCAS\\Football_2.0\\Database\\Premier_league_23_24.csv"],
       "teams": [
         {
-          "name": "Manchester City",
+          "name": "Man City",
           "city": "Manchester",
           "stadium": "Etihad Stadium",
           "players": [
@@ -17,7 +17,7 @@
           ]
         },
         {
-          "name": "Manchester United",
+          "name": "Man United",
           "city": "Manchester",
           "stadium": "Old Trafford",
           "players": [
@@ -61,7 +61,7 @@
           ]
         },
         {
-          "name": "Tottenham Hotspur",
+          "name": "Tottenham",
           "city": "London",
           "stadium": "Tottenham Hotspur Stadium",
           "players": [

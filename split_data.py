@@ -2,6 +2,8 @@ class SplitTheData:
     '''
         Separating the data into 3 datasets: Match, Statistics and Odds.
         Site: https://www.football-data.co.uk/
+        https://datamb.football/
+        https://fbref.com/en/
     '''
     def __init__(self, data):
         self.data = data

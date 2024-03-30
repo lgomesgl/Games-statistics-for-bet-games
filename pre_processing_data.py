@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+
 from split_data import SplitTheData
 
 class PreProcMatchData(SplitTheData):
@@ -29,7 +30,7 @@ class PrecProcOddsData(SplitTheData):
         self.odds_data()
         self.df = self.odds
         
-def concatenate_datas(paths):
+def concatenate_datas(paths):       
     data = pd.DataFrame({})
     for path in paths:
         df = pd.read_csv(path, delimiter=',')
